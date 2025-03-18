@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6efca9655937d3043813cadcdd681b1e, type: 3}
+  m_Name: Ice armor
+  m_EditorClassIdentifier: 
+  itemName: "\u51B0\u9B42\u65AD\u754C"
+  icon: {fileID: -1547736094, guid: a9ca9a41598dd2e44b125928045c518f, type: 3}
+  type: 0
+  itemId: dc009ae47331f604a9c01707d7e327bf
+  dropChance: 5.4
+  equipmentType: 1
+  itemEffects:
+  - {fileID: 11400000, guid: 3f5a53fabff35bf459b2f7ddf621b29f, type: 2}
+  itemCooldown: 60
+  itemEffectDescription: "\u88AB\u653B\u51FB\u540E\uFF0C\u51BB\u7ED3\u9644\u8FD1\u7684\u654C\u4EBA2s\u3002\uFF08\u51B7\u537460s\uFF09"
+  strength: 4
+  agility: 0
+  intelligence: 1
+  vitality: 0
+  damage: 0
+  critChance: 0
+  critPower: 0
+  maxHealth: 40
+  armor: 15
+  evasion: 0
+  magicResistance: 10
+  fireDamage: 0
+  iceDamage: 0
+  lightingDamage: 0
+  craftingMaterial:
+  - data: {fileID: 11400000, guid: 92b8d557e70a02546ba7c94cb03fcbfd, type: 2}
+    stackSize: 40
+  - data: {fileID: 11400000, guid: 001fb4b84865da14e8bab22d1c7058af, type: 2}
+    stackSize: 4
+  - data: {fileID: 11400000, guid: fbb0e96bfb38dec4aaf783708002a95e, type: 2}
+    stackSize: 8

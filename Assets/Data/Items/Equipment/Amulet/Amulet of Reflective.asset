@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6efca9655937d3043813cadcdd681b1e, type: 3}
+  m_Name: Amulet of Reflective
+  m_EditorClassIdentifier: 
+  itemName: "\u8346\u68D8\u5B88\u62A4"
+  icon: {fileID: -1342722037, guid: a9ca9a41598dd2e44b125928045c518f, type: 3}
+  type: 0
+  itemId: c15ab963efa7e974c8b19a2c70818d37
+  dropChance: 0
+  equipmentType: 2
+  itemEffects:
+  - {fileID: 11400000, guid: ea41aaf09dea5bd4187a5c01c7cfcaae, type: 2}
+  itemCooldown: 0
+  itemEffectDescription: "\u7A7F\u6234\u540E\u53D7\u5230\u653B\u51FB\uFF0C\u5468\u56F4\u4E24\u7C73\u7684\u654C\u4EBA\u53D7\u5230\u6700\u5927\u751F\u547D\u503C10%\u7684\u4F24\u5BB3\u3002"
+  strength: 0
+  agility: 0
+  intelligence: 0
+  vitality: 0
+  damage: 0
+  critChance: 0
+  critPower: 0
+  maxHealth: 20
+  armor: 3
+  evasion: 0
+  magicResistance: 5
+  fireDamage: 0
+  iceDamage: 0
+  lightingDamage: 0
+  craftingMaterial:
+  - data: {fileID: 11400000, guid: 001fb4b84865da14e8bab22d1c7058af, type: 2}
+    stackSize: 6
+  - data: {fileID: 11400000, guid: efcfd743d0c05eb48abeec03d352dac2, type: 2}
+    stackSize: 30

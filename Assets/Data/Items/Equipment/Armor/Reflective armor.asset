@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6efca9655937d3043813cadcdd681b1e, type: 3}
+  m_Name: Reflective armor
+  m_EditorClassIdentifier: 
+  itemName: "\u60E9\u6212\u4E4B\u8EAF"
+  icon: {fileID: 1667790894, guid: a9ca9a41598dd2e44b125928045c518f, type: 3}
+  type: 0
+  itemId: aef951b6edd89044d9637876989ac678
+  dropChance: 0
+  equipmentType: 1
+  itemEffects:
+  - {fileID: 11400000, guid: d7ff3aef55f859845a5d5f85508f5038, type: 2}
+  itemCooldown: 6
+  itemEffectDescription: "\u53D7\u5230\u653B\u51FB\u65F6\uFF0C\u5BF9\u5468\u56F4\u56DB\u7C73\u5185\u7684\u6240\u6709\u654C\u4EBA\u9020\u6210\u81EA\u5DF1\u6700\u5927\u751F\u547D\u503C\u767E\u5206\u4E4B50\u7684\u53CD\u4F24\u3002\uFF08CD
+    6s\uFF09"
+  strength: 0
+  agility: 0
+  intelligence: 0
+  vitality: 0
+  damage: 0
+  critChance: 0
+  critPower: 0
+  maxHealth: 0
+  armor: 0
+  evasion: 0
+  magicResistance: 0
+  fireDamage: 0
+  iceDamage: 0
+  lightingDamage: 0
+  craftingMaterial:
+  - data: {fileID: 11400000, guid: 1ebf072e3b3b4d749b3fe0ea175ca093, type: 2}
+    stackSize: 12
+  - data: {fileID: 11400000, guid: 001fb4b84865da14e8bab22d1c7058af, type: 2}
+    stackSize: 3
+  - data: {fileID: 11400000, guid: c637b27355ee09146aee23b1baf5efb9, type: 2}
+    stackSize: 8

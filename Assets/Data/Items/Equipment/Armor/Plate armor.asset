@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6efca9655937d3043813cadcdd681b1e, type: 3}
+  m_Name: Plate armor
+  m_EditorClassIdentifier: 
+  itemName: "\u677F\u7532"
+  icon: {fileID: -1581127718, guid: a9ca9a41598dd2e44b125928045c518f, type: 3}
+  type: 0
+  itemId: c218d327da8a86d4980548b1b2c88d97
+  dropChance: 10
+  equipmentType: 1
+  itemEffects: []
+  itemCooldown: 0
+  itemEffectDescription: "\u8FD8\u4E0D\u9519\u7684\u62A4\u7532\u3002"
+  strength: 0
+  agility: 0
+  intelligence: 0
+  vitality: 0
+  damage: 0
+  critChance: 0
+  critPower: 0
+  maxHealth: 10
+  armor: 3
+  evasion: 0
+  magicResistance: 0
+  fireDamage: 0
+  iceDamage: 0
+  lightingDamage: 0
+  craftingMaterial:
+  - data: {fileID: 11400000, guid: 92b8d557e70a02546ba7c94cb03fcbfd, type: 2}
+    stackSize: 5
+  - data: {fileID: 11400000, guid: b55fdee34d041b34fb81d26c82db8a0b, type: 2}
+    stackSize: 10

@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6efca9655937d3043813cadcdd681b1e, type: 3}
+  m_Name: Armor flask
+  m_EditorClassIdentifier: 
+  itemName: "\u6CF0\u5766\u7CBE\u534E"
+  icon: {fileID: 1073501139, guid: a9ca9a41598dd2e44b125928045c518f, type: 3}
+  type: 0
+  itemId: 3a05d14d8aa4f5041b12f117de97e404
+  dropChance: 0
+  equipmentType: 3
+  itemEffects:
+  - {fileID: 11400000, guid: f644411f7b29d2b41a747eb966ed6992, type: 2}
+  - {fileID: 11400000, guid: c28f73c2ae70d9c419cea8f4937d6a8e, type: 2}
+  itemCooldown: 120
+  itemEffectDescription: "\u4F7F\u7528\u540E20s\u5185\u63D0\u5347\u62A4\u7532\u503C\uFF0C\u5E76\u7ACB\u5373\u56DE\u590D30%\u8840\u91CF\u3002\uFF08\u51B7\u5374120s\uFF09"
+  strength: 0
+  agility: 0
+  intelligence: 0
+  vitality: 0
+  damage: 0
+  critChance: 0
+  critPower: 0
+  maxHealth: 0
+  armor: 0
+  evasion: 0
+  magicResistance: 0
+  fireDamage: 0
+  iceDamage: 0
+  lightingDamage: 0
+  craftingMaterial:
+  - data: {fileID: 11400000, guid: 92b8d557e70a02546ba7c94cb03fcbfd, type: 2}
+    stackSize: 15
+  - data: {fileID: 11400000, guid: 1ebf072e3b3b4d749b3fe0ea175ca093, type: 2}
+    stackSize: 4
+  - data: {fileID: 11400000, guid: 90e1d108400823743b6241ffdd993024, type: 2}
+    stackSize: 6
